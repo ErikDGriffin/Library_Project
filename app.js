@@ -54,7 +54,9 @@ class Library {
     newCheckbox.disabled = read.checked;
     newCheckbox.addEventListener("click", (event) => {
         this.markRead(event.target, event.target.id);
+
     })
+    
     newRead.appendChild(newCheckbox);
 
     newTr.append(newTitle);
